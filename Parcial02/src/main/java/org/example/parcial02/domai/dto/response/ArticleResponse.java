@@ -1,0 +1,21 @@
+package org.example.parcial02.domai.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.example.parcial02.domai.entities.MagicType;
+import java.math.BigDecimal;
+import java.util.UUID;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ArticleResponse {
+    private UUID id;
+    private String name;
+    private MagicType type;
+    private BigDecimal price;
+    private ProviderResponse provider;
+}
