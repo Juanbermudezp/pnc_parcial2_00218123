@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.paricial_00218123.domain.entity.MagicType;
+import org.example.parcial02.domai.entities.MagicType;
 import java.util.UUID;
 
 @Data
